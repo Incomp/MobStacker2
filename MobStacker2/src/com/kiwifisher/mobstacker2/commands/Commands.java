@@ -26,7 +26,7 @@ public class Commands implements CommandExecutor {
             Player player = (Player) commandSender;
 
             /*
-            If it is a mobstacker command then follow
+            If it is a mobstacker command, then follow
              */
             if (command.getLabel().toLowerCase().equalsIgnoreCase("mobstacker")) {
 
